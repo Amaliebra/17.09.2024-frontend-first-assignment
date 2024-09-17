@@ -2,12 +2,76 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* HEADER ------------------------------------ */
 header {
   background-color: aquamarine;
 }
 
-h1 {
+.logotext {
+  background-color: rgb(11, 189, 64);
+}
+
+.logotext h1 {
   font-size: 30px;
+}
+
+.nav-div {
+  background-color: brown;
+}
+
+.nav-list {
+  background-color: blueviolet;
+}
+
+/* MAIN --------------------------------------- */
+
+.img-container {
+  background-color: blue;
+  max-width: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img {
+  border: 1px #6d4444;
+  max-width: 100%;
+}
+
+.text-container {
+  background-color: rgb(255, 0, 102);
+}
+
+.main-list {
+  background-color: rgb(255, 251, 0);
+}
+
+.words-div {
+  background-color: rgb(12, 82, 211);
+}
+
+.words1,
+.words2,
+.words3 {
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+}
+
+.words1 {
+  background-color: rgb(109, 57, 36);
+}
+
+.words2 {
+  background-color: rgb(165, 115, 55);
+}
+
+.words3 {
+  background-color: rgb(239, 133, 84);
 }
