@@ -3,31 +3,56 @@
   padding: 0;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f9eae1;
+  /* colors https://coolors.co/palette/cc8b86-f9eae1-7d4f50-d1be9c-aa998f */
 }
 
 /* HEADER ------------------------------------ */
 header {
   background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logotext {
   background-color: rgb(11, 189, 64);
 }
 
-.logotext h1 {
+.logotext,
+h1 {
   font-size: 30px;
+  color: #7d4f50;
+}
+
+span {
+  color: #cc8b86;
+  letter-spacing: -5px;
 }
 
 .nav-div {
   background-color: brown;
 }
 
-.nav-list {
-  background-color: blueviolet;
+.nav-list,
+li {
+  min-width: 100px;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.nav-div,
+li,
+p {
+  flex: ;
 }
 
 /* MAIN --------------------------------------- */
 
+main {
+  display: flex;
+}
 .img-container {
   background-color: blue;
   max-width: 200px;
@@ -37,7 +62,6 @@ header {
 }
 
 img {
-  border: 1px #6d4444;
   max-width: 100%;
 }
 
@@ -65,13 +89,13 @@ img {
 }
 
 .words1 {
-  background-color: rgb(109, 57, 36);
+  background-color: #cc8b86;
 }
 
 .words2 {
-  background-color: rgb(165, 115, 55);
+  background-color: #7d4f50;
 }
 
 .words3 {
-  background-color: rgb(239, 133, 84);
+  background-color: #aa998f;
 }
