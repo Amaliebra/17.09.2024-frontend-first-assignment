@@ -24,7 +24,7 @@ h1 {
   color: #7d4f50;
 }
 
-span {
+h1 > span {
   color: #cc8b86;
   letter-spacing: -5px;
 }
@@ -38,7 +38,7 @@ li {
   min-width: 100px;
   display: flex;
   list-style: none;
-  justify-content: space-evenly;
+  justify-content: space-around;
   color: #7d4f50;
 }
 
@@ -63,10 +63,17 @@ main {
   display: flex;
   justify-content: center;
 }
+
+.container-container {
+  min-height: 300px;
+  align-items: center;
+  display: flex;
+}
+
 .img-container {
   background-color: blue;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 300px;
+  max-height: 300px;
   overflow: hidden;
   border-radius: 50%;
   align-items: center;
@@ -124,4 +131,20 @@ img {
 
 .words3 {
   background-color: #aa998f;
+}
+
+/* FOOTER--------------------------------------------- */
+
+h4 {
+  font-weight: 500;
+  color: #7d4f50;
+}
+
+.material-icons {
+  font-size: 15px;
+  color: #7d4f50;
+}
+
+.footer-left > p {
+  color: #7d4f50;
 }
