@@ -94,11 +94,13 @@ img {
 }
 
 .text-container > h3 {
-  color: #aa998f;
+  color: #f9eae1;
+  background-color: #7d4f50;
 }
 
 .text-container > p {
   margin-top: 20px;
+  color: #7d4f50;
 }
 
 .main-list {
@@ -135,6 +137,19 @@ img {
 
 /* FOOTER--------------------------------------------- */
 
+footer * {
+  background-color: #d1be9c;
+}
+
+footer {
+  min-height: 100px;
+  background-color: #d1be9c;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 h4 {
   font-weight: 500;
   color: #7d4f50;
@@ -145,6 +160,20 @@ h4 {
   color: #7d4f50;
 }
 
+.footer-left {
+  padding-left: 10px;
+}
+
 .footer-left > p {
   color: #7d4f50;
+  font-size: 14px;
+}
+
+.footer-right > p {
+  color: #7d4f50;
+  font-size: 14px;
+}
+
+.footer-right {
+  padding-right: 10px;
 }
